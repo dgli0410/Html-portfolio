@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    background-image: url(백그라운드.jpg);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 100;
+}
+a:hover{
+    color: #60492C ;
+}
+
+section {
+    padding: 0px;
+    text-align: center;
+}
+
+.Logo /*첫페이지 메인 로고박스*/
+{
+    width: 50%; height: 500%;
+    margin-left: 18%;
+    margin-top: 20px;
+    background-color: white;
+
+    color: black;
+    text-align: center;
+    letter-spacing: -5;
+    -webkit-text-stroke: 1px #000;
+    font-family: "Qwigley", cursive;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 900px;
+    height: 550px;
+    box-shadow: 5px 5px 5px 5px gray;
+	
+	position: relative;
+}
+footer {
+    background-image: url(백그라운드.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

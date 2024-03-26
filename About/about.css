@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky;
+    background-image: url(백그라운드.jpg);
+    background-attachment: scroll;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 150;
+}
+a:hover{
+    color: #60492C ;
+}
+
+.image-container {
+    
+    position: fixed;
+    top: 55.5%;
+    transform: translateY(-49%);
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-left: 7%;
+    
+}
+.image-container img {
+    width: 410px; /* Adjust image width as needed */
+    height: auto;
+    display: block;
+    
+}
+
+.right{
+    overflow: hidden;
+}
+
+.span{
+    float: right;
+}
+
+.whole{
+    display: inline;
+    height: 100%;
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    color: #60492C ;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-family: "Doppio One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    
+/* Ensures that the h2 is cleared from any previous floated elements*/ 
+}
+
+/*.visitor{
+    
+    float: right;
+    
+}*/
+.guest-book {
+    
+    position: absolute;
+    right: 20px;
+    top: 400px; 
+    width: 50%;
+    clear: right; /* Ensures that the guest book is cleared from any previous floated elements */
+}
+
+.guestFormT{
+    position: absolute;
+    right: 20px;
+    top: 500px; 
+    width: 50%;
+}
+
+#guestList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.guestForm {
+   
+    width: 20%;
+    padding: 20px;
+    clear: right; /* Ensures that the guest form is cleared from any previous floated elements */
+}
+
+
+textarea {
+    width: calc(60% - 20px); /* Subtract padding from width */
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1em;
+    margin-top: 12px ;
+}
+
+
+footer {
+    background-image: url(백그라운드.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+}
